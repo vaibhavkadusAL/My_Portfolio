@@ -13,6 +13,7 @@ const Navbar = () => {
     { id: 'education', label: 'Education' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
+    { id: 'freelance', label: 'Freelance' },
   ];
 
   useEffect(() => {
@@ -61,8 +62,8 @@ const Navbar = () => {
 
         <ul className={`navbar-menu ${isMobileMenuOpen ? 'navbar-menu-active' : ''}`}>
           {navItems.map((item, index) => (
-            <li 
-              key={item.id} 
+            <li
+              key={item.id}
               className="navbar-item"
               style={{ animationDelay: `${index * 0.1}s` }}
             >

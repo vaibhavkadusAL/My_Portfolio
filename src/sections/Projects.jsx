@@ -86,9 +86,19 @@ const Projects = () => {
 
                 <div className="projects-intro animate-on-scroll">
                     <p className="projects-description">
-                        Here are some of my recent projects that showcase my skills in full-stack development,
-                        API integration, and building scalable solutions. Each project demonstrates my commitment
-                        to clean code, user experience, and innovative problem-solving.
+                        Here are some of the real-world projects I have worked on, ranging from full-stack web
+                        applications to backend-heavy platforms with complex integrations. These projects
+                        represent hands-on experience with live systems used by real users and businesses.
+                    </p>
+                    <p className="projects-description">
+                        Each project reflects my ability to understand requirements, design scalable solutions,
+                        and deliver production-ready applications using modern technologies. My experience
+                        includes working on admin panels, payment workflows, database optimization, and smooth
+                        frontend-backend communication.
+                    </p>
+                    <p className="projects-description">
+                        These projects highlight my approach to clean architecture, performance optimization,
+                        and building systems that are reliable, maintainable, and future-ready.
                     </p>
                 </div>
 

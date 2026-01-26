@@ -29,6 +29,29 @@
     opacity: 0;
 }
 
+.home-status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    background: rgba(0, 212, 255, 0.1);
+    color: var(--color-accent-primary);
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    margin-bottom: var(--spacing-lg);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #00ff00;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00ff00;
+    animation: pulse 2s infinite;
+}
+
 .home-greeting {
     display: flex;
     align-items: center;
@@ -149,6 +172,29 @@
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-xl);
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn-whatsapp-home {
+    border-color: #25d366;
+    color: #25d366;
+}
+
+.btn-whatsapp-home:hover {
+    background: #25d366;
+    color: white;
+    border-color: #25d366;
+}
+
+.btn-ghost {
+    background: transparent;
+    color: var(--color-text-secondary);
+    border: none;
+}
+
+.btn-ghost:hover {
+    color: var(--color-text-primary);
+    transform: translateY(-2px);
 }
 
 .home-contact-info {

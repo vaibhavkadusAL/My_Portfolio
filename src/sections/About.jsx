@@ -61,8 +61,9 @@ const About = () => {
                             <h3 className="about-subtitle gradient-text">Who I Am</h3>
                             <p className="about-description">
                                 I'm a <strong>Dynamic Full-Stack Java Developer</strong> with hands-on experience at Alphaseam,
-                                specializing in scalable backend systems, REST API development, cloud integration, and modern
-                                front-end frameworks.
+                                specializing in scalable backend systems, REST API development, and modern front-end frameworks.
+                                I am currently open to <strong>freelance and part-time opportunities</strong> where I help
+                                businesses turn ideas into powerful digital solutions.
                             </p>
                             <p className="about-description">
                                 Skilled in <strong>Core Java, Spring Boot, Microservices, MySQL, Angular/React</strong>, and

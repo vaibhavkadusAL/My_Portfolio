@@ -40,6 +40,11 @@ const Home = () => {
         <section id="home" className="home-section section">
             <div className="home-container container">
                 <div className="home-content" ref={titleRef}>
+                    <div className="home-status-badge animate-fadeIn">
+                        <span className="status-dot"></span>
+                        <span className="status-text">Available for Freelance</span>
+                    </div>
+
                     <div className="home-greeting">
                         <span className="home-wave">👋</span>
                         <span className="home-greeting-text">Hello, I'm</span>
@@ -81,8 +86,16 @@ const Home = () => {
                         >
                             View My Work
                         </button>
+                        <a
+                            href="https://wa.me/919146747054"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline btn-whatsapp-home"
+                        >
+                            Let's Talk
+                        </a>
                         <button
-                            className="btn btn-outline"
+                            className="btn btn-ghost"
                             onClick={() => scrollToSection('about')}
                         >
                             About Me

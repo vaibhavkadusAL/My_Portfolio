@@ -112,10 +112,10 @@ const Experience = () => {
                         <div className="summary-card card">
                             <h4 className="summary-title">Professional Summary</h4>
                             <p className="summary-text">
-                                As a Jr. Software Developer at Alphaseam Enterprises, I've gained extensive hands-on
-                                experience in building scalable full-stack applications. My role involves working with
-                                cutting-edge technologies and collaborating with cross-functional teams to deliver
-                                high-quality solutions.
+                                My professional experience reflects my hands-on involvement in full-stack development,
+                                backend systems, frontend interfaces, and third-party integrations. I've gained strong
+                                experience in building maintainable systems, optimizing performance, and ensuring a
+                                smooth user experience.
                             </p>
                             <div className="summary-stats">
                                 <div className="summary-stat">

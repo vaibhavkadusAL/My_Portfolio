@@ -1,0 +1,149 @@
+.freelance-section {
+    background-color: var(--color-bg-secondary);
+}
+
+.freelance-header {
+    text-align: center;
+    margin-bottom: var(--spacing-3xl);
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    background: rgba(0, 212, 255, 0.1);
+    color: var(--color-accent-primary);
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.status-badge .dot {
+    width: 8px;
+    height: 8px;
+    background-color: #00ff00;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00ff00;
+    animation: pulse 2s infinite;
+}
+
+.freelance-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-3xl);
+    align-items: center;
+}
+
+.freelance-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.freelance-description {
+    font-size: var(--font-size-lg);
+    line-height: 1.8;
+}
+
+.freelance-description strong {
+    color: var(--color-accent-primary);
+    font-weight: 600;
+}
+
+.freelance-mission {
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    color: var(--color-text-primary);
+    font-style: italic;
+    margin: var(--spacing-sm) 0;
+}
+
+.freelance-cta-box {
+    margin-top: var(--spacing-lg);
+    background: var(--color-bg-tertiary);
+    border-left: 4px solid var(--color-accent-primary);
+}
+
+.cta-box-title {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-sm);
+}
+
+.cta-box-text {
+    margin-bottom: var(--spacing-lg);
+}
+
+.btn-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    background: #25d366;
+    /* WhatsApp Green */
+    color: white;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.btn-whatsapp:hover {
+    background: #128c7e;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+}
+
+.service-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-base);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    opacity: 0;
+}
+
+.service-card:hover {
+    border-color: var(--color-accent-primary);
+    background: var(--color-bg-hover);
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.service-title {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-primary);
+    margin-bottom: 0;
+}
+
+.service-content {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .freelance-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-2xl);
+    }
+}
+
+@media (max-width: 600px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
