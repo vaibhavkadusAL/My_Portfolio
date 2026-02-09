@@ -29,18 +29,18 @@ const Experience = () => {
 
     const experience = {
         company: 'Alphaseam Enterprises Pvt. Ltd',
-        position: 'Jr. Software Developer',
-        duration: 'November 2023 – Present',
+        position: 'Software Developer',
+        duration: 'November 2022 – Present',
         location: 'Pune',
         responsibilities: [
-            'Designed and developed full-stack application modules using Core Java, Spring Boot, Angular/React, MySQL, and REST architecture',
-            'Built and integrated RESTful APIs, enabling seamless communication between backend microservices and modern front-end frameworks',
-            'Improved application performance by implementing code optimization, SQL query tuning, exception handling, and scalable API design',
-            'Participated in Agile/Scrum development workflow, including sprint planning, requirement analysis, daily standups, and retrospective meetings',
-            'Collaborated with cross-functional teams to deliver high-quality, production-ready features within project deadlines',
-            'Utilized Git, GitHub, Postman for version control, API testing, and efficient deployment workflows',
-            'Ensured code maintainability by following clean coding principles, modular architecture, and reusable component development',
-            'Integrated third-party services and APIs, enhancing functionality and delivering robust business solutions'
+            'Designed, developed, and maintained full-stack application modules using Core Java, Spring Boot, Angular/React, MySQL, and REST-based architecture',
+            'Developed and integrated RESTful APIs to enable seamless communication between backend services and frontend applications',
+            'Enhanced application performance through code refactoring, SQL query optimization, efficient exception handling, and scalable API design',
+            'Actively contributed in Agile/Scrum development processes including sprint planning, requirement analysis, daily standups, and retrospectives',
+            'Collaborated with cross-functional teams (UI/UX, QA, Product) to deliver production-ready features within defined timelines',
+            'Utilized Git, GitHub, Postman, and Maven for version control, API testing, build automation, and deployment support in production environments',
+            'Followed clean coding standards, modular architecture, and reusable component design to ensure long-term maintainability',
+            'Integrated third-party APIs and services to enhance system functionality and meet evolving business requirements'
         ],
         technologies: [
             'Java', 'Spring Boot', 'Angular', 'React', 'MySQL', 'REST APIs',
@@ -119,7 +119,7 @@ const Experience = () => {
                             </p>
                             <div className="summary-stats">
                                 <div className="summary-stat">
-                                    <span className="stat-number gradient-text">1+</span>
+                                    <span className="stat-number gradient-text">3+</span>
                                     <span className="stat-label">Years</span>
                                 </div>
                                 <div className="summary-stat">

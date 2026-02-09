@@ -24,7 +24,7 @@ const Footer = () => {
         },
         {
             name: 'Email',
-            url: 'mailto:vaibhavkadus3131@gmail.com',
+            url: 'mailto:vaibhavkadus31@gmail.com',
             icon: (
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
@@ -37,7 +37,8 @@ const Footer = () => {
         { name: 'Home', id: 'home' },
         { name: 'About', id: 'about' },
         { name: 'Experience', id: 'experience' },
-        { name: 'Projects', id: 'projects' }
+        { name: 'Projects', id: 'projects' },
+        { name: 'Freelance', id: 'freelance' }
     ];
 
     const scrollToSection = (sectionId) => {
@@ -103,14 +104,14 @@ const Footer = () => {
                         <ul className="footer-contact">
                             <li>
                                 <span className="footer-contact-label">Email:</span>
-                                <a href="mailto:vaibhavkadus3131@gmail.com" className="footer-link">
-                                    vaibhavkadus3131@gmail.com
+                                <a href="mailto:vaibhavkadus31@gmail.com" className="footer-link">
+                                    vaibhavkadus31@gmail.com
                                 </a>
                             </li>
                             <li>
                                 <span className="footer-contact-label">Phone:</span>
-                                <a href="tel:+919146747054" className="footer-link">
-                                    +91 9146747054
+                                <a href="tel:+917509831180" className="footer-link">
+                                    +91 7509831180
                                 </a>
                             </li>
                             <li>

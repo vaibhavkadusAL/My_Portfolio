@@ -53,6 +53,12 @@ const Education = () => {
 
     const certifications = [
         {
+            title: 'Complete Java Bootcamp',
+            issuer: 'Udemy',
+            date: 'Core Java, OOP, Collections',
+            icon: '☕'
+        },
+        {
             title: 'AI Tools Workshop',
             issuer: 'Professional Training',
             date: 'October 2024',
@@ -62,13 +68,7 @@ const Education = () => {
             title: 'Java Programming Internship',
             issuer: 'CodeAlpha',
             date: '2023',
-            icon: '☕'
-        },
-        {
-            title: 'NCC "C" Certificate',
-            issuer: 'National Cadet Corps',
-            date: 'Leadership & Discipline',
-            icon: '🏅'
+            icon: '💻'
         }
     ];
 

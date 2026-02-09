@@ -47,7 +47,7 @@ const Skills = () => {
                 { name: 'Spring MVC', level: 85 },
                 { name: 'Spring Data JPA', level: 85 },
                 { name: 'REST APIs', level: 90 },
-                { name: 'Microservices', level: 70 }
+                { name: 'Microservices', level: 75 }
             ]
         },
         {
@@ -76,21 +76,21 @@ const Skills = () => {
             title: 'Tools & Cloud',
             icon: '🛠️',
             skills: [
-                { name: 'Git', level: 90 },
-                { name: 'GitHub', level: 90 },
+                { name: 'Git & GitHub', level: 90 },
                 { name: 'Postman', level: 95 },
                 { name: 'Maven', level: 85 },
-                { name: 'AWS', level: 70 }
+                { name: 'AWS (S3)', level: 75 },
+                { name: 'Deployment (Render/Netlify)', level: 80 }
             ]
         },
         {
             title: 'Concepts',
             icon: '🧠',
             skills: [
-                { name: 'OOP', level: 90 },
-                { name: 'SDLC', level: 85 },
+                { name: 'OOP & SDLC', level: 90 },
                 { name: 'MVC Architecture', level: 85 },
                 { name: 'API Security', level: 80 },
+                { name: 'Exception Handling', level: 85 },
                 { name: 'Data Structures', level: 75 }
             ]
         }

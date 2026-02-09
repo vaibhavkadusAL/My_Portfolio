@@ -31,7 +31,7 @@ const About = () => {
         {
             icon: '💼',
             title: 'Professional Experience',
-            description: '1+ years as Jr. Software Developer at Alphaseam Enterprises'
+            description: '3+ years as Software Developer at Alphaseam Enterprises'
         },
         {
             icon: '🎯',
@@ -60,7 +60,7 @@ const About = () => {
                         <div className="about-intro">
                             <h3 className="about-subtitle gradient-text">Who I Am</h3>
                             <p className="about-description">
-                                I'm a <strong>Dynamic Full-Stack Java Developer</strong> with hands-on experience at Alphaseam,
+                                I'm a <strong>Full-Stack Java Developer</strong> with <strong>3+ years of professional experience</strong> (Nov 2022 – Present),
                                 specializing in scalable backend systems, REST API development, and modern front-end frameworks.
                                 I am currently open to <strong>freelance and part-time opportunities</strong> where I help
                                 businesses turn ideas into powerful digital solutions.

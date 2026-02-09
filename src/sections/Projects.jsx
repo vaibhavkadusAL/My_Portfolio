@@ -32,13 +32,14 @@ const Projects = () => {
             title: 'GreenDharti',
             subtitle: 'E-Waste Recycling & Sustainability Platform',
             description: 'A comprehensive platform for e-waste management with secure payment integration, admin module for user management, and service approval workflows. Built with modern technologies to promote environmental sustainability.',
-            technologies: ['Java', 'Spring Boot', 'MySQL', 'Angular', 'React', 'REST APIs', 'Razorpay'],
+            technologies: ['Java', 'Spring Boot', 'MySQL', 'React', 'REST APIs', 'Razorpay Payment Gateway'],
             features: [
-                'Razorpay Payment Integration with secure transaction handling',
-                'Complete Admin Module for user and service management',
-                'REST APIs for payment workflows and operations',
-                'Optimized MySQL database queries for performance',
-                'Authentication, authorization, and input validation'
+                'Implemented Razorpay payment gateway integration with secure transaction processing and callback validation',
+                'Developed a comprehensive Admin Module including user management, service approvals, payment tracking, and reporting',
+                'Designed and exposed REST APIs for payment workflows, service requests, and admin operations',
+                'Optimized database schema and queries to ensure high-performance data operations',
+                'Implemented authentication, authorization, and input validation for application security',
+                'Deployed backend services on Render and frontend applications on Netlify with environment-based configurations'
             ],
             link: 'https://greendharti.com/',
             icon: '🌱',
@@ -48,13 +49,12 @@ const Projects = () => {
             title: 'Sai Rural Development Trust',
             subtitle: 'NGO Website Platform',
             description: 'A modern, responsive website for an NGO featuring a complete frontend built with React and a Spring Boot backend for contact form management. Focused on user experience and seamless data handling.',
-            technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'Spring Boot', 'REST API'],
+            technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'Spring Boot', 'REST APIs'],
             features: [
-                'Entire Frontend developed using React with reusable components',
-                'Spring Boot Backend for contact form management',
-                'Form validation and error handling',
-                'REST APIs for admin data access',
-                'Frontend-backend integration using Axios'
+                'Developed a fully responsive frontend using React with reusable and modular UI components',
+                'Built Spring Boot backend services for contact form management with database persistence',
+                'Implemented form validation, error handling, and REST APIs for admin data access',
+                'Integrated frontend and backend using Axios to ensure smooth and reliable data flow'
             ],
             link: 'https://www.sairuraldevelopmenttrust.com/',
             icon: '🤝',
@@ -66,12 +66,11 @@ const Projects = () => {
             description: 'A scalable platform that routes WhatsApp messages to appropriate business chatbots. Handles 1000+ concurrent sessions with secure authentication and comprehensive message logging.',
             technologies: ['Java', 'Spring Boot', 'PostgreSQL', 'Redis', 'REST APIs', 'JWT', '360Dialog', 'Twilio'],
             features: [
-                'Core message routing engine for chatbot mapping',
-                'Webhook handling and outbound messaging',
-                'Business Management APIs for client onboarding',
-                'Session management using Redis',
-                'Message logging with analytics support',
-                'High scalability with JWT/API key authentication'
+                'Designed and developed a message routing engine to map WhatsApp messages to the appropriate business chatbot',
+                'Implemented webhook handling and outbound messaging for WhatsApp service providers',
+                'Built business onboarding and management APIs to support multiple chatbot clients',
+                'Implemented Redis-based session management to ensure consistent user-chatbot interactions',
+                'Developed a scalable architecture capable of handling 1000+ concurrent sessions with secure JWT/API key authentication'
             ],
             link: null,
             icon: '💬',

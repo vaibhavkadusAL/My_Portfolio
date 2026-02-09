@@ -95,7 +95,7 @@ const Freelance = () => {
                                 with clean code and smart solutions.
                             </p>
                             <a
-                                href="https://wa.me/919146747054"
+                                href="https://wa.me/917509831180"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn btn-primary btn-whatsapp"

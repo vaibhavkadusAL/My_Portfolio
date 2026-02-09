@@ -66,7 +66,7 @@ const Home = () => {
 
                     <div className="home-stats">
                         <div className="home-stat">
-                            <span className="home-stat-number gradient-text">1+</span>
+                            <span className="home-stat-number gradient-text">3+</span>
                             <span className="home-stat-label">Years Experience</span>
                         </div>
                         <div className="home-stat">
@@ -87,7 +87,7 @@ const Home = () => {
                             View My Work
                         </button>
                         <a
-                            href="https://wa.me/919146747054"
+                            href="https://wa.me/917509831180"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-outline btn-whatsapp-home"
@@ -103,17 +103,17 @@ const Home = () => {
                     </div>
 
                     <div className="home-contact-info">
-                        <a href="mailto:vaibhavkadus3131@gmail.com" className="home-contact-item">
+                        <a href="mailto:vaibhavkadus31@gmail.com" className="home-contact-item">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
                             </svg>
-                            <span>vaibhavkadus3131@gmail.com</span>
+                            <span>vaibhavkadus31@gmail.com</span>
                         </a>
-                        <a href="tel:+919146747054" className="home-contact-item">
+                        <a href="tel:+917509831180" className="home-contact-item">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
                             </svg>
-                            <span>+91 9146747054</span>
+                            <span>+91 7509831180</span>
                         </a>
                         <span className="home-contact-item">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
