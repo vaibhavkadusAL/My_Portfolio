@@ -46,6 +46,40 @@ const Projects = () => {
             color: 'green'
         },
         {
+            title: 'Trend & Cakes',
+            subtitle: 'Bakery & Cake Ordering Website',
+            description: 'A modern and responsive bakery website for showcasing cakes, pastries, and decoration services. Built using React to provide a smooth user experience with WhatsApp-based ordering for quick customer conversion.',
+            technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+            features: [
+                'Developed a fully responsive frontend using React with reusable and modular UI components',
+                'Implemented product showcase sections for cakes, pastries, and decoration materials',
+                'Integrated WhatsApp-based ordering system for direct customer interaction and quick conversions',
+                'Designed customer testimonial section to build trust and improve user engagement',
+                'Created service sections for birthday and anniversary decorations with clear call-to-actions',
+                'Optimized UI/UX for mobile-first experience using Bootstrap for responsiveness'
+            ],
+            link: 'https://trendandcakes.com/',
+            icon: '🎂',
+            color: 'pink'
+        },
+        {
+            title: 'INSPIRE – UAE Business Setup',
+            subtitle: 'Business Setup & Consultancy Website',
+            description: 'A modern and responsive business website for a UAE-based consultancy providing company formation, visa, and business support services. Built with React to deliver a seamless user experience and strong lead generation flow.',
+            technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+            features: [
+                'Developed a fully responsive multi-page frontend using React with reusable and modular UI components',
+                'Implemented business service modules including company setup, visa services, and government support',
+                'Designed structured sections for Free Zone, Mainland, and business licensing information',
+                'Integrated strong call-to-action features such as “Book Appointment” and “Call Now” for lead generation',
+                'Created clean navigation with React Router for smooth page transitions',
+                'Optimized UI/UX for professional business presentation and improved user engagement'
+            ],
+            link: 'https://www.alilhammanagement.com/',
+            icon: '🌍',
+            color: 'green'
+        },
+        {
             title: 'Sai Rural Development Trust',
             subtitle: 'NGO Website Platform',
             description: 'A modern, responsive website for an NGO featuring a complete frontend built with React and a Spring Boot backend for contact form management. Focused on user experience and seamless data handling.',

@@ -61,6 +61,14 @@
     background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
 }
 
+.project-pink:hover {
+    border-color: #ec4899;
+}
+
+.project-pink::before {
+    background: linear-gradient(135deg, #ec4899 0%, #be185d 100%);
+}
+
 .project-header {
     display: flex;
     gap: var(--spacing-lg);

@@ -1,10 +1,13 @@
 import { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const navItems = [
     { id: 'home', label: 'Home' },
@@ -30,7 +33,12 @@ const Navbar = () => {
           const sectionBottom = sectionTop + section.offsetHeight;
 
           if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-            setActiveSection(navItems[index].id);
+            const newActive = navItems[index].id;
+            if (activeSection !== newActive) {
+              setActiveSection(newActive);
+              // Update URL without hash and without reloading
+              window.history.replaceState(null, '', `/${newActive === 'home' ? '' : newActive}`);
+            }
           }
         }
       });
@@ -38,7 +46,7 @@ const Navbar = () => {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [activeSection]);
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -50,6 +58,9 @@ const Navbar = () => {
         behavior: 'smooth'
       });
       setIsMobileMenuOpen(false);
+      
+      // Update URL
+      navigate(sectionId === 'home' ? '/' : `/${sectionId}`);
     }
   };
 
@@ -68,7 +79,7 @@ const Navbar = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <a
-                href={`#${item.id}`}
+                href={item.id === 'home' ? '/' : `/${item.id}`}
                 className={`navbar-link ${activeSection === item.id ? 'navbar-link-active' : ''}`}
                 onClick={(e) => {
                   e.preventDefault();

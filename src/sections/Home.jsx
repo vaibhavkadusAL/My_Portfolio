@@ -127,7 +127,7 @@ const Home = () => {
                 <div className="home-visual">
                     <div className="home-avatar">
                         <div className="avatar-circle">
-                            <img src={profileImage} alt="Vaibhav Kadus" className="avatar-image" />
+                            <img src={profileImage} alt="Vaibhav Kadus" className="avatar-image" loading="lazy" />
                         </div>
                         <div className="avatar-ring"></div>
                         <div className="avatar-ring-2"></div>
