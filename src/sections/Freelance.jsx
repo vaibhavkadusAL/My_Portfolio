@@ -5,24 +5,21 @@ const Freelance = () => {
     const sectionRef = useRef(null);
 
     useEffect(() => {
+        const elements = sectionRef.current.querySelectorAll('.animate-on-scroll');
+        
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
-                        entry.target.querySelectorAll('.animate-on-scroll').forEach((el, index) => {
-                            setTimeout(() => {
-                                el.classList.add('animate-fadeInUp');
-                            }, index * 100);
-                        });
+                        entry.target.classList.add('animate-fadeInUp');
+                        observer.unobserve(entry.target);
                     }
                 });
             },
             { threshold: 0.1 }
         );
 
-        if (sectionRef.current) {
-            observer.observe(sectionRef.current);
-        }
+        elements.forEach((el) => observer.observe(el));
 
         return () => observer.disconnect();
     }, []);

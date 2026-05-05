@@ -7,7 +7,6 @@
     text-align: center;
     max-width: 800px;
     margin: 0 auto var(--spacing-3xl);
-    opacity: 0;
 }
 
 .projects-description {
@@ -24,7 +23,6 @@
 }
 
 .project-card {
-    opacity: 0;
     padding: var(--spacing-2xl);
     display: flex;
     flex-direction: column;
@@ -194,7 +192,6 @@
 }
 
 .projects-cta {
-    opacity: 0;
 }
 
 .cta-card {
