@@ -106,7 +106,32 @@ const Projects = () => {
             link: null,
             icon: '💬',
             color: 'purple'
-        }
+        },
+        {
+    title: 'Exilieen Centre for Soil, Food and Environmental Research (ESFER)',
+    subtitle: 'Research Laboratory & Corporate Website',
+    description: 'Developed a responsive corporate website for ESFER to showcase laboratory testing services, research initiatives, certifications, and company information. Built an intuitive user interface with optimized performance, responsive design, and easy navigation for clients and researchers.',
+    technologies: [
+        'React.js',
+        'JavaScript',
+        'HTML5',
+        'CSS3',
+        'Bootstrap',
+        'Responsive Design'
+    ],
+    features: [
+        'Developed a modern and responsive React-based corporate website for a research and testing laboratory',
+        'Designed informative pages including Home, About, R&D, Services, Certificates, and Contact',
+        'Implemented responsive layouts to provide a seamless experience across desktop, tablet, and mobile devices',
+        'Created reusable React components for improved maintainability and scalability',
+        'Integrated contact information, laboratory details, and service sections with user-friendly navigation',
+        'Optimized website performance and page loading speed for better user experience',
+        'Built a clean and professional UI reflecting the organization’s scientific and research-focused identity'
+    ],
+    link: 'https://exilieen.com/',
+    icon: '🧪',
+    color: 'blue'
+}
     ];
 
     return (
