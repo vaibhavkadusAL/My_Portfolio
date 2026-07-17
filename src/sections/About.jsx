@@ -59,8 +59,6 @@ const About = () => {
                             <p className="about-description">
                                 I'm a <strong>Full-Stack Java Developer</strong> with <strong>3+ years of professional experience</strong> (Nov 2022 – Present),
                                 specializing in scalable backend systems, REST API development, and modern front-end frameworks.
-                                I am currently open to <strong>freelance and part-time opportunities</strong> where I help
-                                businesses turn ideas into powerful digital solutions.
                             </p>
                             <p className="about-description">
                                 Skilled in <strong>Core Java, Spring Boot, Microservices, MySQL, Angular/React</strong>, and

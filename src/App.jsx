@@ -9,7 +9,6 @@ import Experience from './sections/Experience';
 import Education from './sections/Education';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
-import Freelance from './sections/Freelance';
 import './App.css';
 
 function AppContent() {
@@ -52,7 +51,6 @@ function AppContent() {
         <Education />
         <Skills />
         <Projects />
-        <Freelance />
       </main>
       <Footer />
     </div>

@@ -16,7 +16,6 @@ const Navbar = () => {
     { id: 'education', label: 'Education' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
-    { id: 'freelance', label: 'Freelance' },
   ];
 
   useEffect(() => {

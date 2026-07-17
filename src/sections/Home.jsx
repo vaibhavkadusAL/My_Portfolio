@@ -40,11 +40,6 @@ const Home = () => {
         <section id="home" className="home-section section">
             <div className="home-container container">
                 <div className="home-content" ref={titleRef}>
-                    <div className="home-status-badge animate-fadeIn">
-                        <span className="status-dot"></span>
-                        <span className="status-text">Available for Freelance</span>
-                    </div>
-
                     <div className="home-greeting">
                         <span className="home-wave">👋</span>
                         <span className="home-greeting-text">Hello, I'm</span>

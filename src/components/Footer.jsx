@@ -37,8 +37,7 @@ const Footer = () => {
         { name: 'Home', id: 'home' },
         { name: 'About', id: 'about' },
         { name: 'Experience', id: 'experience' },
-        { name: 'Projects', id: 'projects' },
-        { name: 'Freelance', id: 'freelance' }
+        { name: 'Projects', id: 'projects' }
     ];
 
     const scrollToSection = (sectionId) => {
